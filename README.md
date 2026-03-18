@@ -9,8 +9,9 @@ A modern, high-performance music player for Android and Web designed for seamles
 - **Metadata Extraction**: Real-time ID3 tag and cover art extraction for a rich library experience.
 - **Adaptive UI**: Beautiful, responsive design with "Panorama" mode for immersive visuals.
 
-## [Política de Privacidade (Brasil)](https://aliosen.github.io/AlioxPlayer/PRIVACY_POLICY)
-Confira nossa Política de Privacidade para entender como protegemos seus dados e como o aplicativo interage com as APIs do Google Drive.
+## [Privacy Policy](https://aliosen.github.io/AlioxPlayer/PRIVACY_POLICY)
+Check our Privacy Policy to understand how we protect your data and how the app interacts with the Google Drive APIs.
+
 
 ## Support
 For issues or questions regarding Aliox Player, please visit the repository's Issues page.
