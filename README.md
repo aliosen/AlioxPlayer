@@ -4,13 +4,13 @@ A modern, high-performance music player for Android and Web designed for seamles
 
 ## Features
 
-- **Google Drive Integration**: Stream your music library directly from the cloud.
+- **Onedrive & WebDav Integration**: Stream your music library directly from the cloud.
 - **High-Quality Audio**: Advanced audio engine support (AAudio & AudioTrack).
 - **Metadata Extraction**: Real-time ID3 tag and cover art extraction for a rich library experience.
 - **Adaptive UI**: Beautiful, responsive design with "Panorama" mode for immersive visuals.
 
 ## [Privacy Policy](https://aliox.space/privacy)
-Check our Privacy Policy to understand how we protect your data and how the app interacts with the Google Drive APIs.
+Check our Privacy Policy to understand how we protect your data.
 
 
 ## Support
