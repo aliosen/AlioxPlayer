@@ -134,10 +134,20 @@
       color: #bbb;
     }
 
-    /* BUTTON */
-    .btn {
-      display: block;
+    /* BUTTONS */
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
       margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       padding: 15px 30px;
       background: linear-gradient(45deg, #6c5ce7, #a29bfe);
       border: none;
@@ -196,9 +206,15 @@
 
 </section>
 
-<button class="btn" onclick="window.location.href='./privacy'">
-  Privacy Policy
-</button>
+<div class="actions">
+  <button class="btn" onclick="window.location.href='./privacy'">
+    Privacy Policy
+  </button>
+
+  <button class="btn" onclick="window.location.href='./terms'">
+    Terms of Service
+  </button>
+</div>
 
 <!-- ANIMAÇÃO AO SCROLL -->
 <script>
