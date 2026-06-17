@@ -95,6 +95,13 @@
       margin: auto;
     }
 
+    .store-cta {
+      display: flex;
+      justify-content: center;
+      margin: 32px auto 0;
+      padding: 0 20px;
+    }
+
     /* GRID */
     .grid {
       display: grid;
@@ -140,7 +147,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 14px;
-      margin: 40px auto;
+      margin: 40px auto 52px;
       padding: 0 20px;
     }
 
@@ -148,6 +155,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 10px;
       padding: 15px 30px;
       background: linear-gradient(45deg, #6c5ce7, #a29bfe);
       border: none;
@@ -156,11 +164,52 @@
       font-weight: 600;
       cursor: pointer;
       transition: 0.3s;
+      text-decoration: none;
     }
 
     .btn:hover {
       transform: scale(1.1);
       box-shadow: 0 0 20px #6c5ce7;
+    }
+
+    .btn-store {
+      background: #ffffff;
+      color: #111;
+      border: 1px solid rgba(255,255,255,0.25);
+      box-shadow: 0 12px 34px rgba(255,255,255,0.12);
+      min-width: 244px;
+    }
+
+    .btn-store:hover {
+      box-shadow: 0 0 28px rgba(255,255,255,0.28);
+    }
+
+    .store-logo {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 520px) {
+      .hero {
+        padding: 58px 16px;
+      }
+
+      .hero h1 {
+        font-size: 2.45rem;
+      }
+
+      .actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+      }
     }
   </style>
 </head>
@@ -177,26 +226,33 @@
 
   <h1>Aliox Player</h1>
   <p>
-    The high-fidelity audio player for Android. Stream your personal music library directly from the cloud with zero compromise in quality.
+    The high-fidelity audio player for Android. Stream your personal music library from OneDrive or WebDAV with zero compromise in quality.
   </p>
+
+  <div class="store-cta">
+    <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.alioxplayer.app" target="_blank" rel="noopener">
+      <img class="store-logo" src="logo.png" alt="" aria-hidden="true">
+      Get it on Google Play
+    </a>
+  </div>
 
 </section>
 
 <section class="grid">
 
   <div class="card">
-    <h3>Audiophile Quality</h3>
+    <h3>Lossless Playback</h3>
     <p>Support for FLAC, ALAC, and WAV lossless formats. Gapless playback for an uninterrupted experience.</p>
   </div>
 
   <div class="card">
-    <h3>Cloud Integrated</h3>
-    <p>Connect your Onedrive and/or WebDav and stream your music without taking up device storage.</p>
+    <h3>Cloud Library</h3>
+    <p>Connect OneDrive or WebDAV and stream your personal music library without filling your device storage.</p>
   </div>
 
   <div class="card">
-    <h3>DLNA Support</h3>
-    <p>Cast your music to any DLNA compatible device in your home network with full controls.</p>
+    <h3>DLNA Casting</h3>
+    <p>Cast music to compatible devices on your home network and keep playback controls close at hand.</p>
   </div>
 
   <div class="card">
@@ -207,13 +263,13 @@
 </section>
 
 <div class="actions">
-  <button class="btn" onclick="window.location.href='./privacy'">
+  <a class="btn" href="./privacy">
     Privacy Policy
-  </button>
+  </a>
 
-  <button class="btn" onclick="window.location.href='./terms'">
+  <a class="btn" href="./terms">
     Terms of Service
-  </button>
+  </a>
 </div>
 
 <!-- ANIMAÇÃO AO SCROLL -->
