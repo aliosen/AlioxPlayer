@@ -1,5 +1,14 @@
 # [Aliox Player](https://aliox.space)
 
+## License / Source Availability
+
+Aliox Player is proprietary software and is not open source.
+This repository is provided for documentation, distribution, or support purposes only.
+No permission is granted to copy, modify, distribute, sublicense, or reuse the source code
+except as expressly allowed by the Terms of Service or applicable law.
+
+Third-party components included in this repository remain subject to their own licenses.
+
 A modern, high-performance music player for Android and Web designed for seamless cloud integration with Google Drive.
 
 ## Features
